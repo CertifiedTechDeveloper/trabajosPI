@@ -1,4 +1,4 @@
-//Funciones expresadas
+//Funciones expresadas (siempre el console.log debe estar despues de declarar la variable)
 let chau = function (){
     return 'chau';
 }
