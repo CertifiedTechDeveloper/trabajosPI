@@ -1,6 +1,6 @@
 //OPERADOES
 
-// ASIGNACION =
+// ASIGNACION se escribe con el signo igual =
 
 let nombre = 40
 
@@ -46,13 +46,15 @@ let nombre = 40
 //AND &&
 
 true && true // siempre true cuando todas las sentencias son verdaderas
-//En el caso de los strings y el operador &&, al ser ambos strings verdaderos (ya que tienen una cadena de caracteres), la respuesta es el último string de la sentencia.
+/*En el caso de los strings y el operador &&, al ser ambos strings verdaderos 
+(ya que tienen una cadena de caracteres), la respuesta es el último string de la sentencia.*/
 
 //OR ||
 
 true || false // es verdadero con que una sentencia sea verdadera
 
-//En los casos de string y el operador ||  —al tener que cumplirse solo una condición—, como ambos son true, la respuesta es la primera sentencia true encontrada.
+/*En los casos de string y el operador ||  —al tener que cumplirse solo una condición—, como ambos son true,
+ la respuesta es la primera sentencia true encontrada.*/
 
 //CONCATENACIONES +
  
@@ -61,27 +63,31 @@ let apellido = 'Torlaschi'
 
 console.log (nombre + ' ' + apellido)  // en consola muestra Ana Torlaschi
 
-// TRULHY O FALSY
+// TRULHY O FALSY //
 
-// SIEMPRE FALSY
+/* SIEMPRE FALSY
 
  false
  0 (cero)
- “” (string vacío)
+ “ ” (string vacío)
  null
  undefined
- NaN (Not a Number. Ejemplo: el resultado de 1 dividido por 0)
+ NaN (Not a Number. Ejemplo: el resultado de 1 dividido por 0)*/
  
- //TODO LO DEMAS ES TRULHY. Eso incluye:
+ /*TODO LO DEMAS ES TRULHY. Eso incluye:
 
  ‘0’ (una cadena que contenga un simple 0)
  ‘false’ (un string que contenga el texto “false”)
  [] (un arreglo vacío)*
  {} (un objeto vacío)*
- function(){} (una función vacía)
+ function(){} (una función vacía) */
 
- // LAS REGLAS SON:
+ /* LAS REGLAS SON:
 
 False, cero y cadenas vacías son todas equivalentes.
 Null y undefined son equivalentes a ellos mismos y entre ellos, pero nada más.
-NaN no es equivalente a nada, incluido otro NaN.
+NaN no es equivalente a nada, incluido otro NaN. 
+
+
+Cuando se comparan strings, el == compara valor y <= compara por orden alfabético. 
+Ejemplo: console.log("a" < "bbbbb"); //true*/
